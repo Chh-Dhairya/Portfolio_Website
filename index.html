@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Personal Portfolio</title>
+    <meta name = "title" content="Personal Portfolio">
+    <meta name="description" content="Personal Portfolio Website">
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preload" as="image" href="assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+    <!--preloader-->
+    <div class="preloader loaded" data-preloader>
+        <div class="circle"></div>
+    </div>
+
+    <!--
+    -header
+    -->
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.svg" width="178" height="40" alt="Pfolio Home">
+            </a>
+
+            <button class="nav-toggle-btn" data-nav-toggler data-nav-toggler-btn aria-label="Toggle Menu">
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+            </button>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="#" class="navbar-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link">Resume</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link">Contact</a>
+                    </li>
+
+
+                </ul>
+            </nav>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+
+
+
+    <main>
+        <article>
+            <!--
+            - #HERO 
+            -->
+
+            <section class="section hero" aria-label="home">
+                <div class="container">
+
+                    <div class="hero-content">
+                        
+                        <h1 class="h1 hero-title">Dhairya Chhabra</h1>
+
+                        <p class="hero-subtitle">Student</p>
+
+                        <div class="hero-banner">
+                            <img src="./assets/images/WhatsApp Image 2025-06-04 at 19.39.43_5431f442.jpg" width="800" height="800" alt="" class="w-100">
+                        </div>
+
+                        <p class="section-text">
+                            A driven Computer Science student at The LNM Institute of Information Technology
+                            with a passion for solving complex problems and building creative solutions.
+                            Skilled in C/C++, Python, and data structures.
+                            Gained hands-on experience by leading a quantum computation project using Python.
+                        </p>
+
+                        <a href="#" class="btn has-before">
+                            <span class="span">Download CV</span>
+
+                            <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+                        </a>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+            <!--
+            - #SERVICE
+            -->
+
+            <section class="service" aria-labelledby="service-label">
+                <div class="container">
+
+                    <div class="title-wrapper">
+
+                        <div>
+                            <p class="section-subtitle">
+                                Skills
+                            </p>
+
+                            <h2 class="h2 section-title" id="service-label">Skills</h2>
+                        </div>
+
+                        <p class="section-text">-----skills here------</p>
+
+                    </div>
+
+                    <div class="slider" data-slider>
+
+                        <ul class="slider-container service-list" data-slider-container>
+
+                            <li class="slider-item" data-slider-item>
+                                <div class="service-card">
+
+                                    <div class="card-icon">
+                                        <ion-icon name="desktop-outline"></ion-icon>
+                                    </div>
+
+                                    <h3 class="h3 card-title">Skill-1</h3>
+
+                                    <p class="card-text">
+                                        aaaa
+                                    </p>
+
+                                    <span class="text-lg card-number">01</span>
+
+                                    <a href="#" class="layer-link" aria-label="more about - Skill-1"></a>
+
+                                </div>
+                            </li>
+
+                            <li class="slider-item" data-slider-item>
+                                <div class="service-card">
+
+                                    <div class="card-icon">
+                                        <ion-icon name="podium-outline"></ion-icon>
+                                    </div>
+
+                                    <h3 class="h3 card-title">Skill-2</h3>
+
+                                    <p class="card-text">
+                                        aaaa
+                                    </p>
+
+                                    <span class="text-lg card-number">02</span>
+
+                                    <a href="#" class="layer-link" aria-label="more about - "></a>
+
+                                </div>
+                            </li>
+
+                            <li class="slider-item" data-slider-item>
+                                <div class="service-card">
+
+                                    <div class="card-icon">
+                                        <ion-icon name="basket-outline"></ion-icon>
+                                    </div>
+
+                                    <h3 class="h3 card-title">Skill-3</h3>
+
+                                    <p class="card-text">
+                                        aaaa
+                                    </p>
+
+                                    <span class="text-lg card-number">03</span>
+
+                                    <a href="#" class="layer-link" aria-label="more about - "></a>
+
+                                </div>
+                            </li>
+
+                            <li class="slider-item" data-slider-item>
+                                <div class="service-card">
+
+                                    <div class="card-icon">
+                                        <ion-icon name="color-filter-outline"></ion-icon>
+                                    </div>
+
+                                    <h3 class="h3 card-title">Skill-4</h3>
+
+                                    <p class="card-text">
+                                        aaaa
+                                    </p>
+
+                                    <span class="text-lg card-number">04</span>
+
+                                    <a href="#" class="layer-link" aria-label="more about - "></a>
+
+                                </div>
+                            </li>
+
+                            <li class="slider-item" data-slider-item>
+                                <div class="service-card">
+
+                                    <div class="card-icon">
+                                        <ion-icon name="megaphone-outline"></ion-icon>
+                                    </div>
+
+                                    <h3 class="h3 card-title">skill-5</h3>
+
+                                    <p class="card-text">
+                                        aaaa
+                                    </p>
+
+                                    <span class="text-lg card-number">05</span>
+
+                                    <a href="#" class="layer-link" aria-label="more about - "></a>
+
+                                </div>
+                            </li>
+
+                            <li class="slider-item" data-slider-item>
+                                <div class="service-card">
+
+                                    <div class="card-icon">
+                                        <ion-icon name="chatbubbles-outline"></ion-icon>
+                                    </div>
+
+                                    <h3 class="h3 card-title">Skill-6</h3>
+
+                                    <p class="card-text">
+                                        aaaa
+                                    </p>
+
+                                    <span class="text-lg card-number">06</span>
+
+                                    <a href="#" class="layer-link" aria-label="more about - "></a>
+
+                                </div>
+                            </li>
+
+                        </ul>
+
+                        <div class="slider-controls">
+                            <button class="slider-control prev" data-slider-prev aria-label="slide to previous item">
+                                <div class="line"></div>
+                                <div class="arrow"></div>
+                            </button>
+
+                            <button class="slider-control next" data-slider-next aria-label="slide to next item">
+                                <div class="line"></div>
+                                <div class="arrow"></div>
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!--
+            - #SKILLS
+            -->
+
+            <section class="section skills" aria-label="our skills">
+                <div class="container">
+
+                    <p class="section-subtitle">Skill-1</p>
+
+                    <h2 class="h2 section-title">Skill-2</h2>
+
+                    <div class="skills-wrapper">
+
+                        <div>
+                            <p class="section-text">
+                                ----some text----
+                            </p>
+
+                            <p class="section text">
+                                ----some text----
+                            </p>
+
+                            <a href="#" class="btn has-before">---somelink---</a>
+                        </div>
+
+                        <div>
+
+                            <ul class="skills-list">
+
+                                <li>
+                                    <div class="progress-wrapper">
+                                        <p class="progress-label">Skill-1</p>
+                                        <data value="90%" class="progress-value">90%</data>
+                                    </div>
+
+                                    <div class="progress-bg">
+                                        <div class="progress" style="width: 90%;"></div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="progress-wrapper">
+                                        <p class="progress-label">Skill-2</p>
+                                        <data value="90%" class="progress-value">90%</data>
+                                    </div>
+
+                                    <div class="progress-bg">
+                                        <div class="progress" style="width: 90%;"></div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="progress-wrapper">
+                                        <p class="progress-label">Skill-3</p>
+                                        <data value="90%" class="progress-value">90%</data>
+                                    </div>
+
+                                    <div class="progress-bg">
+                                        <div class="progress" style="width: 90%;"></div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="progress-wrapper">
+                                        <p class="progress-label">Skill-4</p>
+                                        <data value="90%" class="progress-value">90%</data>
+                                    </div>
+
+                                    <div class="progress-bg">
+                                        <div class="progress" style="width: 90%;"></div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!--
+            - #PORTFOLIO
+            -->
+
+            <section class="portfolio" aria-labelledby="portfolio-label">
+                <div class="container">
+
+                    <div class="title-wrapper">
+
+                        <div>
+                            <p class="section-subtitle" id="portfolio-label">Our Works</p>
+
+                            <h2 class="h2 section-title">Portfolio</h2>
+                        </div>
+
+                        <p class="section-text">--text here--</p>
+
+                    </div>
+
+                    <div class="slider" data-slider>
+
+                        <ul class="slider-container" data-slider-container>
+
+                            <li class="slider-item" data-slider-item>
+                                <div class="portfolio-card img-holder" style="--width: , --height: ;">
+
+                                    <img src="" alt="" class="img-cover">
+
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+            </section>
+        </article>
+    </main>
+    
+
+
+    <script src="./assets/js/script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>
